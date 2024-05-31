@@ -1,3 +1,5 @@
+With dockerfile stolen from https://gist.github.com/aradalvand/04b2cad14b00e5ffe8ec96a3afbb34fb 😂
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
