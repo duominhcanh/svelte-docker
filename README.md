@@ -1,5 +1,12 @@
 With dockerfile stolen from https://gist.github.com/aradalvand/04b2cad14b00e5ffe8ec96a3afbb34fb 😂
 
+# CLI commands
+
+```
+docker build -t svelte-docker .
+docker rm -f svelte-docker && docker run -d -p 3000:3000 --name svelte-docker svelte-docker:latest
+```
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
